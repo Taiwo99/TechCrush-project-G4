@@ -1,5 +1,26 @@
 
 
+.huddle-span{
+    color: #EF4137;
+}
+.header button{
+    background: #C6371A;
+}
+header nav{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+/* .hd-nav{
+    margin-left: 30px;
+    margin-right: 30px;
+} */
+
+
+
+
+
+
+
 @media (max-width: 767px) {
   
 }
