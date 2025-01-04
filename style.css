@@ -1,14 +1,60 @@
 
-
+*{
+  box-sizing: border-box;
+}
 .huddle-span{
     color: #EF4137;
 }
 .header button{
     background: #C6371A;
 }
-header nav{
+.nav{
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
+}
+.active{
+  border-bottom:  2px solid #C6371A;
+}
+
+
+
+
+
+
+
+
+.footer{
+  background-color: #111111;
+  cursor: pointer;
+}
+.footer{
+  color: #eee;
+}
+.footer p{
+  color: #ADADAC;
+  font-size: 14px;
+}
+ .footer ul li{
+  font-size: 14px;
+  color: #8F8E8D;
+  cursor: pointer;
+}
+.footer form input{
+  background-color: #4c4a4a;
+  width: 400px;
+  color: #ADADAC;
+}
+.footer form input::placeholder{
+  color:  #ADADAC;
+  padding-left: 10px;
+}
+.brand p{
+  width: 260px;
+}
+.social-media i{
+  font-size: 24px;
+  color: #8F8E8D;
+  margin-right: 20px;   
 }
 /* .hd-nav{
     margin-left: 30px;
