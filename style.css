@@ -12,8 +12,11 @@
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
+.nav-width{
+  width: 80%;
+}
 .active{
-  border-bottom:  2px solid #C6371A;
+  border-bottom:  3px solid #C6371A;
 }
 
 
