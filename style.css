@@ -18,7 +18,14 @@
 .active{
   border-bottom:  3px solid #C6371A;
 }
+.hero-img{
+  width: 100%;
+  height: 300px;
+}
 
+.main-page{
+  height: 500px;
+}
 .hero-card .col h6{
   color: #645d5d;
   font-weight: 500;
@@ -33,7 +40,20 @@
 .btn{
   background: #4c4a4a;
 }
+.hero-card{
+  z-index: 2;
+  position: absolute;
+  /* top: 10px; */
+ top: -7rem;
+}
+.body-top{
+  top: -30%;
+  position: relative;
+  height: 100%;
+  
+}
 .body-section{
+  position: relative;
   background-color: #111111;
 }
 .comment p, .buttom p{
@@ -59,7 +79,9 @@
   width: 50px;
 }
 
-
+.profile-line{
+  border-bottom:  1px solid #4c4a4a;
+}
 .footer{
   background-color: #111111;
   cursor: pointer;
