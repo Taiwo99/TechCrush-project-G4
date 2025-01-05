@@ -19,11 +19,45 @@
   border-bottom:  3px solid #C6371A;
 }
 
+.hero-card .col h6{
+  color: #645d5d;
+  font-weight: 500;
+}
+.hero-card p .bs{
+  color: #1546f6;
+}
+.hero-card .col img{
+  width: 80px;
+  height: auto;
+}
+.btn{
+  background: #4c4a4a;
+}
+.body-section{
+  background-color: #111111;
+}
+.comment p, .buttom p{
+  color: #8F8E8D;
+}
+.article-img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
+.buttom-img{
+  height: 90px;
+  width: 125px;
+}
 
-
-
-
+/* .buttom-img2{
+  height: 35px;
+  width: 35px;
+} */
+.profile-img, .buttom-img2{
+  height: 50px;
+  width: 50px;
+}
 
 
 .footer{
@@ -42,14 +76,17 @@
   color: #8F8E8D;
   cursor: pointer;
 }
+.footer form{
+  height: 50px;
+}
 .footer form input{
   background-color: #4c4a4a;
-  width: 400px;
+  width: 410px;
   color: #ADADAC;
 }
 .footer form input::placeholder{
   color:  #ADADAC;
-  padding-left: 10px;
+  padding-left: 8px;
 }
 .brand p{
   width: 260px;
